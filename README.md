@@ -5,13 +5,13 @@ A lightweight utility to pad and center strings within a given width
 ## Installation
 
 ```bash
-npm install @cafeine-software/pad-center
+npm install @cafeine-software/padCenter
 ```
 
 ## Usage
 
 ```javascript
-import { padCenter } from 'pad-center';
+import { padCenter } from '@cafeine-software/padCenter';
 
 // Basic centering with spaces
 padCenter('hello', 11);

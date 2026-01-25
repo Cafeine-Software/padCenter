@@ -67,3 +67,7 @@ Developed by **Quentin Lamamy**.
 - **Email**: [contact@quentin-lamamy.fr](mailto:contact@quentin-lamamy.fr)
 - **GitHub**: [github.com/quentin-lamamy](https://github.com/quentin-lamamy)
 - **Cafeine Github**: [github.com/Cafeine-Software](https://github.com/Cafeine-Software)
+
+# Support
+
+<a href="https://www.buymeacoffee.com/quentinlamamy"><img src="https://img.buymeacoffee.com/button-api/?text=Pay me a beer&emoji=🍺&slug=quentinlamamy&button_colour=0a12ff&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" style="width:40%" /></a>

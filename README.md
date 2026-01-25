@@ -5,7 +5,7 @@ A lightweight utility to pad and center strings within a given width
 ## Installation
 
 ```bash
-npm install pad-center
+npm install @cafeine-software/pad-center
 ```
 
 ## Usage

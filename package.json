@@ -1,0 +1,20 @@
+{
+  "name": "padcenter",
+  "version": "1.0.0",
+  "description": "Npm package padCenter",
+  "homepage": "https://github.com/Cafeine-Software/padCenter#readme",
+  "bugs": {
+    "url": "https://github.com/Cafeine-Software/padCenter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cafeine-Software/padCenter.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

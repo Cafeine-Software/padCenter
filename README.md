@@ -2,7 +2,7 @@
 
 # Pad Center
 
-<img src="https://github.com/Cafeine-Software/padCenter/blob/main/media/logo.png?raw=true" alt="padCenterLogo" width="200"/>
+<img src="https://github.com/Cafeine-Software/padCenter/blob/main/media/logo.png?raw=true" alt="padCenterLogo" width="400"/>
 
 A lightweight utility to pad and center strings within a given width
 </div>
@@ -63,7 +63,7 @@ Pads a string to center it within a given width using a specified character.
 
 ## License
 
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/CC_BY-SA_icon.svg/320px-CC_BY-SA_icon.svg.png" width="25%"/>](https://creativecommons.org/licenses/by-sa/4.0/)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/CC_BY-SA_icon.svg/320px-CC_BY-SA_icon.svg.png" width="150px"/>](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Contact
 
@@ -75,4 +75,4 @@ Developed by **Quentin Lamamy**.
 
 # Support
 
-<a href="https://www.buymeacoffee.com/quentinlamamy"><img src="https://img.buymeacoffee.com/button-api/?text=Pay me a beer&emoji=🍺&slug=quentinlamamy&button_colour=0a12ff&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" style="width:40%" /></a>
+<a href="https://www.buymeacoffee.com/quentinlamamy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="150"></a>

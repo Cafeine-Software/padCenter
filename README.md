@@ -2,7 +2,7 @@
 
 # Pad Center
 
-<img src="https://github.com/Cafeine-Software/padCenter/main/media/logo.png?raw=true" alt="padCenterLogo" width="200"/>
+<img src="https://github.com/Cafeine-Software/padCenter/blob/main/media/logo.png?raw=true" alt="padCenterLogo" width="200"/>
 
 A lightweight utility to pad and center strings within a given width
 </div>

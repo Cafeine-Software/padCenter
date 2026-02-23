@@ -1,17 +1,22 @@
-# padCenter
+<div align="center">
+
+# Pad Center
+
+<img src="https://github.com/Cafeine-Software/padCenter/main/media/padCenter.png?raw=true" alt="errorUnstack" width="200"/>
 
 A lightweight utility to pad and center strings within a given width
+</div>
 
 ## Installation
 
 ```bash
-npm install @cafeine-software/padCenter
+npm install @cafeine-software/padcenter
 ```
 
 ## Usage
 
 ```javascript
-import { padCenter } from '@cafeine-software/padCenter';
+import { padCenter } from '@cafeine-software/padcenter';
 
 // Basic centering with spaces
 padCenter('hello', 11);

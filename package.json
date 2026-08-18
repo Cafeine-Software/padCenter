@@ -1,6 +1,6 @@
 {
   "name": "@cafeine-software/padcenter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A lightweight utility to pad and center strings within a given width",
   "homepage": "https://github.com/Cafeine-Software/padCenter#readme",
   "bugs": {
@@ -10,12 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/Cafeine-Software/padCenter.git"
   },
-  "license": "CC_BY-SA 4.0",
+  "license": "MPL-2.0",
   "author": "Quentin Lamamy <contact@quentin-lamamy.fr>",
   "type": "module",
-  "main": "src/index.js",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
   },
   "keywords": [
     "pad",

@@ -1,19 +1,29 @@
 <div align="center">
 
-# Pad Center
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="media/wideLogo_white.webp">
+  <source media="(prefers-color-scheme: light)" srcset="media/wideLogo_dark.webp">
+  <img alt="PadCenter" src="media/wideLogo_dark.webp">
+</picture>
 
-<img src="https://github.com/Cafeine-Software/padCenter/blob/main/media/logo.png?raw=true" alt="padCenterLogo" width="400"/>
+![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+[![Npm](https://img.shields.io/badge/npm-red?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@cafeine-software/padcenter)
 
-A lightweight utility to pad and center strings within a given width
 </div>
 
-## Installation
+[Introduction](#Introduction) • [Installation](#Installation) • [Usage](#Usage) • [License](#License) • [Author](#Author)
+
+# Introduction
+
+A lightweight utility to pad and center strings within a given width
+
+# Installation
 
 ```bash
 npm install @cafeine-software/padcenter
 ```
 
-## Usage
+# Usage
 
 ```javascript
 import { padCenter } from '@cafeine-software/padcenter';
@@ -31,13 +41,9 @@ padCenter('test', 9);
 // => '  test   '
 ```
 
-## Documentation
+# Documentation
 
-### `padCenter(str, width, [char])`
-
-Pads a string to center it within a given width using a specified character.
-
-#### Parameters
+## Parameters
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
@@ -45,11 +51,11 @@ Pads a string to center it within a given width using a specified character.
 | `width` | `number` | - | The final width (required) |
 | `char` | `string` | `' '` | The padding character (optional) |
 
-#### Returns
+## Returns
 
 - `string` - The padded and centered string
 
-#### Throws
+## Throws
 
 - `Error` - If `str` is not a valid string
 - `Error` - If `width` is not a finite number
@@ -61,18 +67,14 @@ Pads a string to center it within a given width using a specified character.
 - If the string length is greater than or equal to the width, the original string is returned unchanged
 - When padding is odd, the extra character is added to the end
 
-## License
+# Changelog
 
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/CC_BY-SA_icon.svg/320px-CC_BY-SA_icon.svg.png" width="150px"/>](https://creativecommons.org/licenses/by-sa/4.0/)
+- 18/08/2026 : v1.0.5 — switched to MPL 2.0
 
-## Contact
+# License
 
-Developed by **Quentin Lamamy**.
+[![Licence](https://img.shields.io/badge/MPL%202.0-00d230?style=for-the-badge&logo=mozilla&logoColor=white)](https://www.mozilla.org/en-US/MPL/2.0/)
 
-- **Email**: [contact@quentin-lamamy.fr](mailto:contact@quentin-lamamy.fr)
-- **GitHub**: [github.com/quentin-lamamy](https://github.com/quentin-lamamy)
-- **Cafeine Github**: [github.com/Cafeine-Software](https://github.com/Cafeine-Software)
+# Author
 
-# Support
-
-<a href="https://www.buymeacoffee.com/quentinlamamy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="150"></a>
+[<img src="https://raw.githubusercontent.com/quentinlamamy/quentinlamamy/b88fe446526c98aac889c6b21611a59c41bcbc3d/media/quentinDino_opti.svg" height=80/>](https://github.com/quentinlamamy)

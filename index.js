@@ -1,3 +1,11 @@
+/* 
+ * Copyright (c) 2025-2026 Quentin Lamamy
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+
 /**
  * @summary Pad a string to center it
  * @description Pads a string to center it within a given width using a specified character
@@ -21,15 +29,16 @@
 export function padCenter(str, width, char = ' ') {
 
     // Type checks
-    if(typeof str !== 'string') throw new Error("First argument must be a valid string to be padded.");
-    if(typeof width !== 'number' || isNaN(width) || !isFinite(width)) throw new Error("Width must be a finite number.");
+    if (typeof str !== 'string') throw new Error("First argument must be a valid string to be padded.");
+    if (typeof width !== 'number' || isNaN(width) || !isFinite(width)) throw new Error("Width must be a finite number.");
+    if (!Number.isInteger(width)) throw new Error("Width must be an integer.");
+    if (typeof char !== 'string') throw new Error("Padding character must be a string.");
+    if (char.length !== 1) throw new Error("Padding character must be a single character.");
     if (str.length >= width) return str;
-    if(typeof char !== 'string') throw new Error("Padding character must be a string.");
-    if( char.length !== 1) throw new Error("Padding character must be a single character.");
 
     const totalPadding = width - str.length;
     const paddingStart = Math.floor(totalPadding / 2);
     const paddingEnd = totalPadding - paddingStart;
     return char.repeat(paddingStart) + str + char.repeat(paddingEnd);
-    
+
 }

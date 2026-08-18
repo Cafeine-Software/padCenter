@@ -13,6 +13,8 @@
 
 </div>
 
+<br/>
+
 # Introduction
 
 A lightweight utility to pad and center strings within a given width

@@ -6,13 +6,15 @@
   <img alt="PadCenter" src="media/wideLogo_dark.webp">
 </picture>
 
-![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-[![Npm](https://img.shields.io/badge/npm-red?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@cafeine-software/padcenter)
+<img alt="NodeJs Badge" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">[![Npm](https://img.shields.io/badge/npm-red?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@cafeine-software/padcenter)
 
-[Introduction](#Introduction) • [Installation](#Installation) • [Usage](#Usage) • [License](#License) • [Author](#Author)
+<br/><hr/>
+
+[Introduction](#Introduction) • [Installation](#Installation) • [Usage](#Usage) • [License](#License) • [Author](#Author)<hr/>
 
 </div>
 
+<br/>
 
 # Introduction
 

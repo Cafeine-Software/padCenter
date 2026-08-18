@@ -7,6 +7,7 @@
 </picture>
 
 [![NodeJS Badge](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)[![Npm Badge](https://img.shields.io/badge/npm-red?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@cafeine-software/padcenter)
+
 <br/><hr/>
 
 [Introduction](#Introduction) • [Installation](#Installation) • [Usage](#Usage) • [License](#License) • [Author](#Author)<hr/>

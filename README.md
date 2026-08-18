@@ -9,9 +9,10 @@
 ![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 [![Npm](https://img.shields.io/badge/npm-red?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@cafeine-software/padcenter)
 
+[Introduction](#Introduction) • [Installation](#Installation) • [Usage](#Usage) • [License](#License) • [Author](#Author)
+
 </div>
 
-[Introduction](#Introduction) • [Installation](#Installation) • [Usage](#Usage) • [License](#License) • [Author](#Author)
 
 # Introduction
 
@@ -41,8 +42,6 @@ padCenter('test', 9);
 // => '  test   '
 ```
 
-# Documentation
-
 ## Parameters
 
 | Parameter | Type | Default | Description |
@@ -69,7 +68,7 @@ padCenter('test', 9);
 
 # Changelog
 
-- 18/08/2026 : v1.0.5 — switched to MPL 2.0
+- 18/08/2026 : v1.0.5 — Fixed validation order, added integer check for width, aligned license to MPL-2.0, flattened project structure, and expanded test coverage
 
 # License
 

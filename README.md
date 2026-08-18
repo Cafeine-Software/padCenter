@@ -58,6 +58,7 @@ padCenter('test', 9);
 
 - `Error` - If `str` is not a valid string
 - `Error` - If `width` is not a finite number
+- `Error` - If `width` is not an integer
 - `Error` - If `char` is not a string
 - `Error` - If `char` is not a single character
 

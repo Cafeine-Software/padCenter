@@ -1,6 +1,6 @@
 {
   "name": "@cafeine-software/padcenter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A lightweight utility to pad and center strings within a given width",
   "homepage": "https://github.com/Cafeine-Software/padCenter#readme",
   "bugs": {

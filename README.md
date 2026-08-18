@@ -1,7 +1,7 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="media/wideLogo_white.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="media/wideLogo_light.webp">
   <source media="(prefers-color-scheme: light)" srcset="media/wideLogo_dark.webp">
   <img alt="PadCenter" src="media/wideLogo_dark.webp">
 </picture>
